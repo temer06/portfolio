@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Gadiev Timarlan</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="me">
+        <div class="container">
+          <nav class="me__nav">
+            <div class="nav__row">
+              <a href="#" class="nav__logo logo">GT</a>
+              <div class="me__sing">
+                <a href="sing.html" class="nav__sing">Войти</a>
+              </div>
+            </div>
+          </nav>
+          <div class="me__item">
+            <div class="me__about-me">
+              <p class="me__title">Frontend-developer</p>
+              <h1 class="me__name">Гадиев Тимерлан</h1>
+              <p class="me__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн
+                и верстку небольшого сайта или интернет-магазина</p>
+              <a href="#popup" class="me__btn btn popup-link">Бесплатная консультация</a>
+            </div>
+
+            <img src="./img/me1.png" alt="" class="me__img">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="work">
+        <div class="container">
+          <div class="work__title title">Со мной удобно работать</div>
+          <div class="work__row">
+            <div class="work__item">
+              <img src="./img/1.svg" alt="" class="work__img">
+              <p class="work__subtitle">По договору</p>
+              <p class="work__discription">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
+                как ИП без НДС.</p>
+            </div>
+            <div class="work__item">
+              <img src="./img/2.svg" alt="" class="work__img">
+              <p class="work__subtitle">Точно в срок</p>
+              <p class="work__discription">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+                плачу неустойку. </p>
+            </div>
+            <div class="work__item">
+              <img src="./img/3.svg" alt="" class="work__img">
+              <p class="work__subtitle">Ценник под вас</p>
+              <p class="work__discription">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+                складывается цена.</p>
+            </div>
+            <div class="work__item">
+              <img src="./img/4.svg" alt="" class="work__img">
+              <p class="work__subtitle">Премежуточные итоги</p>
+              <p class="work__discription">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
+                как ИП без НДС.</p>
+            </div>
+            <div class="work__item">
+              <img src="./img/5.svg" alt="" class="work__img">
+              <p class="work__subtitle">Хостинг и домен </p>
+              <p class="work__discription">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год
+                + SSL сертификат.
+            </div>
+            <div class="work__item">
+              <img src="./img/6.svg" alt="" class="work__img">
+              <p class="work__subtitle">Не брошу после сдачи</p>
+              <p class="work__discription">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section projects">
+        <div class="container">
+          <p class="section__title title">Последние проекты</p>
+
+          <!-- Slider main container -->
+          <div class="swiper-container projects__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper ">
+              <!-- Slides -->
+              <div class="swiper-slide projects__slide">
+                <a href="https://temer06.github.io/spX/" class="project__link" target="_blank">
+                  <img src="./img/spacex1.png" alt="" class="project__image">
+                </a>
+                <div class="project__text">
+                  <p class="project__title">Сайт Space X</p>
+                  <div class="project__review">
+                    <img src="./img/4.svg" alt="" class="review__icon">
+                    <div class="review__text">
+                      <p class="review__title">Описание</p>
+                      <p class="review__discription">Макет взят на бесплатном обучающем интенсиве. Не самый лучший
+                        интенсив, много моментов не проработали и не затронули. Собственно поэтому осталось много багов
+                        особенно при просмотре сайта на малых разрешениях. К сожалению или к счастью не осталось других работ.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="projects__pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="connection">
+        <div class="container">
+          <p class="connection__title title">Свяжитесь со мной</p>
+          <div class="connection__contacts">
+            <form action="#" class="contacts__form">
+              <p class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</p>
+              <input type="text" class="form__input input__name" placeholder="Ваше имя">
+              <input type="text" class="form__input input__phone" placeholder="Ваш номер">
+              <button class="form__btn">Бесплатная консультация</button>
+            </form>
+            <div class="connection__text">
+              <div class="connection__phone wrap">
+                <p class="text__title">Телефон</p>
+                <a href="tel:+77082080018" class="text__number txt">8 708 208-00-18</a>
+              </div>
+              <div class="text__mail wrap">
+                <p class="text__title">Почта</p>
+                <p class="txt">temer_18.05@mail.ru</p>
+              </div>
+              <div class="text__social wrap">
+                <p class="text__title">Соцсети</p>
+                <a href="https://github.com/users/temer06/projects/1" target="_blank" class="text__icon"><img
+                    src="./img/github.svg" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank" class="text__icon"><img src="./img/instagram.svg"
+                    alt=""></a>
+                <a href="#" class="text__icon"><img src="./img/twitter.png" alt=""></a>
+                <a href="#" class="text__icon"><img src="./img/facebook.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="footer__logo logo">GT</a>
+        <p class="footer__tagline">Жить, учиться и развиваться изо дня в день.</p>
+        <p class="footer__description">Сделано мной вручную</p>
+      </div>
+    </footer>
+
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <a href="#" class="popup__area"></a>
+        <form action="#" class="contacts__form">
+          <a href="#" class="popup__close"><i class="zmdi zmdi-close"> </i></a>
+          <p class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</p>
+          <input type="text" class="form__input input__name" placeholder="Ваше имя">
+          <input type="text" class="form__input input__phone" placeholder="Ваш номер">
+          <button class="form__btn">Бесплатная консультация</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
