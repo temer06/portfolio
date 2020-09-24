@@ -265,7 +265,10 @@ line-height: 28px;
 }
 .review__text{
   flex-basis: 80%;
-
+}
+.review__link{
+  color: #ffffff;
+  text-decoration: underline;
 }
 .review__title {
 font-weight: bold;
